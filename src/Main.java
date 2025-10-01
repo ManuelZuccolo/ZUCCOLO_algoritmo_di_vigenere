@@ -25,7 +25,7 @@ public class Main
 
         for(int i = 0; i < frase.length(); i++)
         {
-            for(int j = 0; j < array.length; j++)
+            for(int j = 0; j < array.length; j++)//Aggiusta qui
             {
                 System.out.print(alg.Algoritmo(frase.charAt(i), array[j], metodo));
             }
